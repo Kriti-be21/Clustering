@@ -2,17 +2,17 @@
 I explored various clustering algorithms using different preprocessing techniques and evaluated them based on different metrics. The dataset utilized was the well-known Iris Dataset.
 
 The clustering techniques employed were:
-* 1- K-Means Clustering (KM)
-* 2- Hierarchical Clustering (HC)
-3- Density-Based Spatial Clustering of Applications with Noise (DBSCAN)
-4- Spectral Clustering (SC)
-5- Affinity Propagation (AP)
-6- Ordering Points To Identify the Clustering Structure (OPTICS)
-7- Mean Shift Clustering (MS)
+* K-Means Clustering (KM)
+* Hierarchical Clustering (HC)
+* Density-Based Spatial Clustering of Applications with Noise (DBSCAN)
+* Spectral Clustering (SC)
+* Affinity Propagation (AP)
+* Ordering Points To Identify the Clustering Structure (OPTICS)
+* Mean Shift Clustering (MS)
 The evaluation metrics considered were:
 Silhouette Score Calinski-Harabasz Score Davies-Bouldin Score For preprocessing, I applied:
 
-Normalization
+#Normalization
 PCA (Principal Component Analysis) Transform Scale
 
 It's important to note that the absence of a 'scale' column in the DBSCAN results is due to DBSCAN's different approach to similarity metrics, which doesn't heavily rely on scaling as KMeans or hierarchical clustering algorithms do.
