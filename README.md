@@ -2,8 +2,8 @@
 I explored various clustering algorithms using different preprocessing techniques and evaluated them based on different metrics. The dataset utilized was the well-known Iris Dataset.
 
 The clustering techniques employed were:
-# 1- K-Means Clustering (KM)
-2- Hierarchical Clustering (HC)
+* 1- K-Means Clustering (KM)
+* 2- Hierarchical Clustering (HC)
 3- Density-Based Spatial Clustering of Applications with Noise (DBSCAN)
 4- Spectral Clustering (SC)
 5- Affinity Propagation (AP)
