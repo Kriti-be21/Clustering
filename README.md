@@ -8,7 +8,7 @@ The clustering techniques employed were:
 * Spectral Clustering (SC)
 * Affinity Propagation (AP)
 * Ordering Points To Identify the Clustering Structure (OPTICS)
-* Mean Shift Clustering (MS)
+* Mean Shift Clustering (MS) <br>
 The evaluation metrics considered were:
 Silhouette Score Calinski-Harabasz Score Davies-Bouldin Score For preprocessing, I applied:
 
