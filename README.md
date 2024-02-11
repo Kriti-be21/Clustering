@@ -12,7 +12,7 @@ The clustering techniques employed were:
 The evaluation metrics considered were:
 Silhouette Score Calinski-Harabasz Score Davies-Bouldin Score For preprocessing, I applied:
 
-#Normalization
+Normalization
 PCA (Principal Component Analysis) Transform Scale
 
 It's important to note that the absence of a 'scale' column in the DBSCAN results is due to DBSCAN's different approach to similarity metrics, which doesn't heavily rely on scaling as KMeans or hierarchical clustering algorithms do.
